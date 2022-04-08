@@ -31,15 +31,16 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  
+
+  #Api
   http: ^0.13.4
-  page_transition: ^2.0.5
 
   #Ui Design 
   animated_splash_screen: ^1.2.0
   animated_text_kit: ^4.2.1
   circular_countdown_timer: ^0.2.1
   custom_refresh_indicator: ^1.1.1
+  page_transition: ^2.0.5
 
   #State Management
   flutter_bloc: ^8.0.1
