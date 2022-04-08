@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
         BlocProvider<TodayCubit>(create: (context) => TodayCubit()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData.dark(),
         title: 'Material App',
         onGenerateRoute: _appRouter.sayfaGecisleri,
